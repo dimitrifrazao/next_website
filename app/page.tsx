@@ -1,26 +1,26 @@
 import Image from "next/image";
 import React from "react";
-import { Fade } from "react-awesome-reveal";
-import Container from "postcss/lib/container";
 import ProjectLink from "./components/projects";
-import Header from "./components/header";
 import Links from "./components/links";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-10">
+    <main className="flex min-h-screen flex-col items-center justify-between ">
+      <head>
+        <link rel="icon" href="/favicon.png" />
+      </head>
       <div className="flex min-h-screen flex-col items-left justify-between p-20">
-        <div>
+        <div className="px-5 py-4">
           <Image
             src="/profile.jpg"
             alt="Next.js Logo"
-            width={300}
+            width={350}
             height={37}
             priority
             className="rounded-md"
           />
         </div>
-        <div>
+        <div className="px-5 py-4 leading-loose">
           <h1>
             Hi, my name is Dimitri Frazao. <br />
             I&apos;m a software engineer at Amazon Games. <br />
@@ -40,7 +40,7 @@ export default function Home() {
             "Multiplayer game made with Node.js, Express and Socket.io."
           )}
         </div>
-        {Links()}
+        <div className="px-5 py-4">{Links()}</div>
       </div>
     </main>
   );
