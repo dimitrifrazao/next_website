@@ -6,9 +6,7 @@ import Links from "./components/links";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between ">
-      <head>
-        <link rel="icon" href="/favicon.png" />
-      </head>
+      <link rel="icon" href="/favicon.png" sizes="any" />
       <div className="flex min-h-screen flex-col items-left justify-between p-20">
         <div className="px-5 py-4">
           <Image
