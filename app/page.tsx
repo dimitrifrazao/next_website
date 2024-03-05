@@ -28,12 +28,12 @@ export default function Home() {
 
         <div className="mb-32 grid text-center gap-4 lg:max-w-2xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
           {ProjectLink(
-            "http://44.218.136.154:5000/",
+            "https://44.218.136.154/wordle",
             "Wordle",
             "Play my Wordle app made with React and Flask."
           )}
           {ProjectLink(
-            "http://44.218.136.154:3000/",
+            "https://44.218.136.154/iogame",
             "IO Game",
             "Multiplayer game made with Node.js, Express and Socket.io."
           )}
