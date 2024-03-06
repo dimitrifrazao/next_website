@@ -17,16 +17,16 @@ export default function Home() {
             priority
             className="rounded-md"
           />
-        </div>
-        <div className="px-5 py-4 leading-loose">
-          <h1>
-            Hi, my name is Dimitri Frazao. <br />
-            I&apos;m a software engineer at Amazon Games. <br />
-            Please check out some of my personal web projects.
-          </h1>
+          <div className="pt-4 leading-loose">
+            <h1>
+              Hi, my name is Dimitri Frazao. <br />
+              I&apos;m a software engineer at Amazon Games. <br />
+              Check out some of my personal web projects.
+            </h1>
+          </div>
         </div>
 
-        <div className="mb-32 grid text-center gap-4 lg:max-w-2xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
+        <div className="mb-10 grid text-center gap-4 lg:max-w-2xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
           {ProjectLink(
             "https://dimitrifrazao.github.io/wordle_front/",
             "Wordle",
@@ -38,7 +38,7 @@ export default function Home() {
             "Multiplayer game made with Node.js, Express and Socket.io."
           )}
         </div>
-        <div className="px-5 py-4">{Links()}</div>
+        {Links()}
       </div>
     </main>
   );

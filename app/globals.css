@@ -31,3 +31,31 @@ body {
     text-wrap: balance;
   }
 }
+
+footer {
+  width: 350;
+  padding-top: 10px;
+}
+
+ul {
+  display: flex; /* Make it a horizontal list */
+  list-style-type: none; /* Remove bullet points */
+  align-items: center;
+}
+
+/* Style for each list item */
+li {
+  margin-right: 0px; /* Add spacing between items */
+}
+
+li a {
+  display: inline-block; /* Make it a block element to apply padding */
+  padding: 5px 20px; /* Padding around the link */
+  text-decoration: none; /* Remove underline */
+  transition: all 0.3s; /* Add transition effect */
+}
+
+/* Hover effect */
+li a:hover {
+  transform: scale(1.2); /* Grow the link on hover */
+}

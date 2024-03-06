@@ -1,38 +1,42 @@
 const Links = () => {
   return (
-    <ul className="flex flex-col text-left">
-      <li>
-        <a
-          className="text-lg hover:text-xl transition duration-300"
-          href="https://www.linkedin.com/in/dimitri-frazao-590aa216/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          linkedIn
-        </a>
-      </li>
+    <footer>
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/dimitri-frazao-590aa216/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linkedIn
+          </a>
+        </li>
 
-      <li>
-        <a
-          className="text-lg hover:text-xl transition duration-300"
-          href="https://github.com/dimitrifrazao/next_website/blob/main/public/resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          resume
-        </a>
-      </li>
-      <li>
-        <a
-          className="text-lg hover:text-xl transition duration-300"
-          href={`mailto:dimitrifrazao@gmail.com`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          email
-        </a>
-      </li>
-    </ul>
+        <li>
+          <a href="./resume.pdf" download>
+            resume
+          </a>
+        </li>
+        <li>
+          <a
+            href={`mailto:dimitrifrazao@gmail.com`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            email
+          </a>
+        </li>
+        <li>
+          <a
+            href={"https://github.com/dimitrifrazao"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github
+          </a>
+        </li>
+      </ul>
+    </footer>
   );
 };
 
