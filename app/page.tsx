@@ -33,7 +33,7 @@ export default function Home() {
             "Play my Wordle app made with React and Flask."
           )}
           {ProjectLink(
-            "https://44.218.136.154/iogame",
+            "https://www.dimitrifrazao.com/iogame/",
             "IO Game",
             "Multiplayer game made with Node.js, Express and Socket.io."
           )}
