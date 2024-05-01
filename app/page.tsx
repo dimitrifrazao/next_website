@@ -28,7 +28,7 @@ export default function Home() {
 
         <div className="mb-10 grid text-center gap-4 lg:max-w-2xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
           {ProjectLink(
-            "https://dimitrifrazao.github.io/wordle_front/",
+            "https://www.dimitrifrazao.com/wordle/",
             "Wordle",
             "Play my Wordle app made with React and Flask."
           )}
