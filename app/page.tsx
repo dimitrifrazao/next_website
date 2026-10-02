@@ -32,6 +32,11 @@ export default function Home() {
             "Game of Life",
             "A Conway's game of life clone"
           )}
+          {ProjectLink(
+            "https://dimitrifrazao.github.io/wordle_static/",
+            "Wordle",
+            "Wordle clone using Typescript & React"
+          )}
         </div>
 
         {/* <div className="mb-10 grid text-center gap-4 lg:max-w-2xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
