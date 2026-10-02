@@ -21,9 +21,17 @@ export default function Home() {
             <h1>
               Hi, my name is Dimitri Frazao. <br />
               I&apos;m a software engineer working at Amazon. <br />
-              {/* Check out some of my personal web projects. */}
+              Please, check out some of my personal projects below.
             </h1>
           </div>
+        </div>
+
+        <div className="mb-10 grid text-center gap-4 lg:max-w-2xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
+          {ProjectLink(
+            "https://dimitrifrazao.github.io/game_of_life/#/game",
+            "Game of Life",
+            "A Conway's game of life clone"
+          )}
         </div>
 
         {/* <div className="mb-10 grid text-center gap-4 lg:max-w-2xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
