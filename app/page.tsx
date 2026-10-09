@@ -37,6 +37,11 @@ export default function Home() {
             "Wordle",
             "Wordle clone using Typescript & React"
           )}
+          {ProjectLink(
+            "https://dimitrifrazao.github.io/web_synth_static/",
+            "Web Synth",
+            "A subtractive polysynth on your browser"
+          )}
         </div>
 
         {/* <div className="mb-10 grid text-center gap-4 lg:max-w-2xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
